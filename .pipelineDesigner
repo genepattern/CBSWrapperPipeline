@@ -2,6 +2,9 @@ version: 1
 modules:
     0:
         type: module
-        top: 230px
-        left: 240px
+        top: 184px
+        left: 385px
 files:
+    0:
+        type: doc
+        name: CBSWrapperPipeline.pdf
