@@ -2,7 +2,7 @@
 #Tue Mar 26 21:12:55 UTC 2019
 JVMLevel=1.5
 LSID=urn:lsid:broad.mit.edu:cancer.software.genepattern.module.pipeline:00017:2	
-author=Barbara Hill, Marc-Danie Nazaire
+author=
 categories=pipeline
 commandLine=<java>  -Dgenepattern.properties\=<resources> -DLSID\=<LSID> -DPIPELINE_ARG.StopAfterTask\=<PIPELINE_ARG.StopAfterTask> -DGenePatternURL\=<GenePatternURL>  org.genepattern.server.webapp.RunPipelineSoap <GenePatternURL>getPipelineModel.jsp?name\=<LSID>&userid\=<userid> <userid> CBS1.input.file\=<CBS1.input.file> CBS1.sample.name\=<CBS1.sample.name> CBS1.permutations\=<CBS1.permutations> CBS1.significance.level\=<CBS1.significance.level> CBS1.output.prefix\=<CBS1.output.prefix>
 cpuType=any
